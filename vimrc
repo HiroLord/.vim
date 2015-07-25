@@ -3,6 +3,7 @@ execute pathogen#infect()
 
 set tabstop=4
 set shiftwidth=4
+set expandtab
 set number
 
 highlight Search guibg='Purple' guifg='NONE'
@@ -27,3 +28,5 @@ let g:syntatic__cpp_compiler_options = ' -std=c++11'
 
 syntax on
 filetype plugin indent on
+
+
