@@ -6,6 +6,8 @@ set shiftwidth=4
 set expandtab
 set number
 
+set t_Co=256
+
 highlight Search guibg='Purple' guifg='NONE'
 
 colorscheme hybrid
