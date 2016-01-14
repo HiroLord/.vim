@@ -18,6 +18,8 @@ set statusline+=%*
 
 set backspace=indent,eol,start
 
+set clipboard=unnamed
+
 set mouse=a
 map <ScrollWheelUp> <C-Y>
 map <ScrollWheelDown> <C-E>
