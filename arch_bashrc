@@ -1,0 +1,16 @@
+
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+source /usr/share/git/completion/git-prompt.sh
+
+export TERM='xterm-256color'
+export VISUAL='vim'
+
+alias ls='ls --color=auto'
+alias ll='ls -la'
+#PS1='[\u@\h \W]\$ '
+PS1='\[\e[1;32m\][\u@\h \W]\$\[\e[0m\] '
